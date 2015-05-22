@@ -1,1 +1,0 @@
-# jliggett.github.io
