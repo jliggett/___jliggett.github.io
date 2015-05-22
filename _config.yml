@@ -1,7 +1,9 @@
 # Where things are
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
-collections: null
+name: ""
+description: ""
+
+url: "http://ifykwis.com"
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
