@@ -25,8 +25,8 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #303030;
+  background-color: #44855c;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -76,3 +76,18 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
+
+
+div.slogan {
+  font-size:1.5em;
+  font-weight:700;
+  letter-spacing:-1px;
+  line-height:1.2em;
+  margin:-15px 0 60px 0px;
+}
+div.slogan div { display:inline;}
+
+
+a.green { color: #23af4c; }
+a.blue { color: #0383c9; }
+a.orange { color: #fba919; }

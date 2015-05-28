@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>IFYKWIS</title>
+ <link href="http://ifykwis.com//atom.xml" rel="self"/>
+ <link href="http://ifykwis.com/"/>
+ <updated>2015-05-27T22:52:11-04:00</updated>
+ <id>http://ifykwis.com</id>
+ <author>
+   <name>Jason Liggett</name>
+   <email>liggett.jason@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Garden</title>
+   <link href="http://ifykwis.com///2015/05/27/garden-post-1/"/>
+   <updated>2015-05-27T00:00:00-04:00</updated>
+   <id>http://ifykwis.com/2015/05/27/garden-post-1</id>
+   <content type="html"></content>
+ </entry>
+ 
+
+</feed>
