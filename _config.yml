@@ -1,28 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:               IFYKWIS
-tagline:             perhaps you know what I am trying to say
-url:                 http://ifykwis.com
-paginate:            1
-baseurl:             ""
+title:            ifykwis
+tagline:          'perhaps you know what I am trying to say'
+description:      ''
+url:              http://ifykwis.com
+baseurl:          /
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
 author:
-  name:              Jason Liggett
-  url:               https://twitter.com/jlliggett
-  email:             liggett.jason@gmail.com
+  name:           'Jason Liggett'
+  url:            https://twitter.com/jlliggett
+
+paginate:         5
+
 
 # Custom vars
 version:             1.0.0
