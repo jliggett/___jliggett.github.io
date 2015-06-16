@@ -4,7 +4,7 @@
  <title>ifykwis</title>
  <link href="http://ifykwis.com/atom.xml" rel="self"/>
  <link href="http://ifykwis.com/"/>
- <updated>2015-06-14T10:02:22-04:00</updated>
+ <updated>2015-06-15T23:40:22-04:00</updated>
  <id>http://ifykwis.com</id>
  <author>
    <name>Jason Liggett</name>
@@ -19,20 +19,26 @@
    <id>http://ifykwis.com/2015/06/13/gardening-in-2015</id>
    <content type="html">&lt;div class=&quot;single-item&quot;&gt;
   &lt;div&gt;
-    &lt;img src=&quot;/img/garden1.jpg&quot;&gt;
+    &lt;img src=&quot;https://goo.gl/7zHlPh&quot;&gt;
   &lt;/div&gt;
   &lt;div&gt;
-    &lt;img src=&quot;/img/garden2.jpg&quot;&gt;
+    &lt;img src=&quot;https://goo.gl/oS1HXU&quot;&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;img src=&quot;https://goo.gl/hvZGBX&quot;&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;div align=&quot;center&quot; class=&quot;category&quot;&gt;
+        &lt;img src=&quot;https://goo.gl/z3eIHW&quot;&gt;
+        &lt;/div&gt;
+        &lt;div align=&quot;center&quot; class=&quot;category&quot;&gt;
+        &lt;img src=&quot;https://goo.gl/xKJ3e4&quot;&gt;
+        &lt;/div&gt;
+        &lt;div align=&quot;center&quot; class=&quot;category&quot;&gt;
+        &lt;img src=&quot;https://goo.gl/nLdS5v&quot;&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;   
-    $(document).ready(function(){
-      $(&#39;.single-item&#39;).slick({
-        setting-name: setting-value
-      });
-    });
-&lt;/script&gt;
 </content>
  </entry>
  

@@ -30,6 +30,7 @@
 
   <!-- slick -->
   <link rel="stylesheet" type="text/css" href="/public/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="/public/slick/slick-theme.css"/>
         
 </head>
 
@@ -103,20 +104,26 @@
 
     <div class="single-item">
   <div>
-    <img src="/img/garden1.jpg">
+    <img src="https://goo.gl/7zHlPh">
   </div>
   <div>
-    <img src="/img/garden2.jpg">
+    <img src="https://goo.gl/oS1HXU">
+  </div>
+  <div>
+    <img src="https://goo.gl/hvZGBX">
+  </div>
+  <div>
+  <div align="center" class="category">
+        <img src="https://goo.gl/z3eIHW">
+        </div>
+        <div align="center" class="category">
+        <img src="https://goo.gl/xKJ3e4">
+        </div>
+        <div align="center" class="category">
+        <img src="https://goo.gl/nLdS5v">
+    </div>
   </div>
 </div>
-
-<script type="text/javascript">   
-    $(document).ready(function(){
-      $('.single-item').slick({
-        setting-name: setting-value
-      });
-    });
-</script>
 
   </div>
   
@@ -351,9 +358,22 @@
 </div>
     </div>
 
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="/js/slick.min.js"></script>
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script type="text/javascript">   
+		$(document).ready(function() {
+		    $('.single-item').slick({
+		        dots: false,
+		        infinite: true,
+		        speed: 500,
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+            lazyLoad: 'ondemand',
+            arrows: true,
+            adaptiveHeight: true
+		    });
+		});
+    </script>
   </body>
 </html>
