@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            ifykwis
 tagline:          'perhaps you know what I am trying to say'
 description:      ''
-url:              http://ifykwis.com
+url:              http://jliggett.github.io
 baseurl:          /
 
 author:
