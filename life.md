@@ -1,9 +1,4 @@
 ---
-layout: page
-title: Life
-color: blue
+layout: default
 ---
 
-<p class="message">
-  Life!
-</p>
