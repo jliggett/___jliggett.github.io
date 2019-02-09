@@ -4,6 +4,4 @@ title: Work
 color: green
 ---
 
-<p class="message">
-  Work!
-</p>
+{% include tagPagesLoop.html tagName='Work' %}

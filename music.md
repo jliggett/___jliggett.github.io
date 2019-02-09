@@ -4,6 +4,4 @@ title: Music
 color: orange
 ---
 
-<p class="message">
-  Music!
-</p>
+{% include tagPagesLoop.html tagName='Music' %}

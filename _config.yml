@@ -7,13 +7,13 @@ permalink:        pretty
 
 # Setup
 title:            ifykwis
-tagline:          'perhaps you know what I am trying to say'
+tagline:          ''
 description:      ''
-url:              http://jliggett.github.io
-baseurl:          /
+url:              "http://jliggett.github.io"
+baseurl:          ""
 
 author:
-  name:           'Jason Liggett'
+  name:           "@jlliggett"
   url:            https://twitter.com/jlliggett
 
 plugins:

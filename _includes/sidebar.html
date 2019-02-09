@@ -1,9 +1,9 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-    <div id="logo"></div>
+    <a href="/"><div id="logo"></div></a> 
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="/">
           {{ site.title }}
         </a>
       </h1>
@@ -27,6 +27,6 @@
       {% endfor %}
 
     </nav>
-    <p>{{ site.tagline }}</p>
+    <a target="_blank" href="{{ site.author.url }}">{{ site.author.name }}</a>
   </div>
 </div>
