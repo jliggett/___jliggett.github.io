@@ -16,7 +16,9 @@ author:
   name:           'Jason Liggett'
   url:            https://twitter.com/jlliggett
 
-paginate:         5
+plugins:
+  - jekyll-paginate
+paginate: 5
 
 
 # Custom vars
