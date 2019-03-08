@@ -4,6 +4,10 @@ title: Tanager March 6th, 2019
 tag: Music
 ---
 
+  <div>
+  	<img src="/public/tanager.jpg">
+  </div>
+
 ### Far From Me
 <audio src="/music_files/20190306/far_from_me_03062019.mp3" controls preload></audio>
 ### Workin Man Blues
