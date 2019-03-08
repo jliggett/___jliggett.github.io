@@ -4,9 +4,9 @@ title: Tanager March 6th, 2019
 tag: Music
 ---
 
-  <div>
+<div style="height:42px;width:42px">
   	<img src="/public/tanager.jpg">
-  </div>
+</div>
 
 ### Far From Me
 <audio src="/music_files/20190306/far_from_me_03062019.mp3" controls preload></audio>
