@@ -4,7 +4,7 @@ title: Tanager March 6th, 2019
 tag: Music
 ---
 
-<div style="height:42px;width:42px">
+<div style="height:500px;width:500px">
   	<img src="/public/tanager.jpg">
 </div>
 
