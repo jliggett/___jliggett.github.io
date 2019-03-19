@@ -5,7 +5,7 @@ tag: Music
 ---
 
 <div style="height:335px;width:500px">
-  	<img src="/public/bgt.jpg">
+  	<img src="/public/bgt.jpeg">
 </div>
 
 ### Can't Believe I Am Here With You (working title)
