@@ -45,6 +45,10 @@ html {
   }
 }
 
+@font-face {
+  font-family: "cubefontregular";
+  src: url("../fonts/modular.ttf");
+}
 
 /*
  * Sidebar
@@ -272,6 +276,7 @@ a.sidebar-nav-item:focus {
 a.green { color: #33FF66; }
 a.blue { color: #7DA1F5; }
 a.orange { color: #DEBB2F; }
+a.black { color: #000000; }
 
 h1.green { color: #33FF66; }
 h1.blue { color: #7DA1F5; }

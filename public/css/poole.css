@@ -78,6 +78,9 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
+a.header { 
+  color: #000000;
+}
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -93,6 +96,8 @@ h1 {
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
+  color: #000000;
+  font-family: TimesNewRoman;
 }
 h3 {
   margin-top: 1.5rem;
@@ -101,6 +106,12 @@ h3 {
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+header {
+  font-family: cubefontregular, sans-serif;
+  font-size: 10rem;
+  padding: 20px 10px;
 }
 
 /* Body text */
@@ -146,6 +157,7 @@ abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #e5e5e5;
 }
+
 
 /* Code */
 code,
@@ -292,7 +304,11 @@ tbody tr:nth-child(odd) th {
   margin-left:  auto;
   margin-right: auto;
 }
-
+.article {
+  -webkit-columns: 2 100px;
+  -moz-columns: 2 100px;
+  columns: 2 100px;
+}
 
 /*
  * Masthead
