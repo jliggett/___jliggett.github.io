@@ -50,6 +50,12 @@ html {
   src: url("../fonts/modular.ttf");
 }
 
+
+@font-face {
+  font-family: "tangerine";
+  src: url("../fonts/Tangerine_Bold.ttf");
+}
+
 /*
  * Sidebar
  *

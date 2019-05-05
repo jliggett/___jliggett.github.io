@@ -103,15 +103,27 @@ h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
-h4, h5, h6 {
+h4, h5 {
   margin-top: 1rem;
   font-size: 1rem;
 }
 
+h6 {
+  color: #000000;
+  font-family: tangerine, sans-serif;
+  font-size: 1.5rem;
+  padding: 0px 40px;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  width: 65%;
+}
+
 header {
+  color: #000000;
   font-family: cubefontregular, sans-serif;
-  font-size: 10rem;
-  padding: 20px 10px;
+  font-size: 8rem;
+  margin-bottom: 0rem;
+  padding: 0px 20px;
 }
 
 /* Body text */
@@ -220,6 +232,10 @@ pre code {
   color: inherit;
   background-color: transparent;
   border-radius: 0;
+}
+
+.nobreak {
+  page-break-inside: avoid;
 }
 
 /* Quotes */
