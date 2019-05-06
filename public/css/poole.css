@@ -116,6 +116,7 @@ h6 {
   margin-top: 0rem;
   margin-bottom: 1rem;
   width: 65%;
+  min-width: 30rem;
 }
 
 header {
@@ -321,9 +322,13 @@ tbody tr:nth-child(odd) th {
   margin-right: auto;
 }
 .article {
-  -webkit-columns: 2 100px;
-  -moz-columns: 2 100px;
-  columns: 2 100px;
+  max-width: 38rem;
+  padding-left:  1rem;
+  -webkit-columns: 2 50px;
+  -moz-columns: 2 50px;
+  columns: 2 50px;
+  min-height: 100rem;
+  min-width: 50rem;
 }
 
 /*
