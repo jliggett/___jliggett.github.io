@@ -6,11 +6,11 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            "atomic field grass"
+title:            ""
 tagline:          ''
 description:      ''
 url:              "http://jliggett.github.io"
-baseurl:          ""
+baseurl:          "/plentynice"
 
 author:
   name:           "@jlliggett"
