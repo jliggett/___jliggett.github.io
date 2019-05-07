@@ -10,15 +10,14 @@ title:            ""
 tagline:          ''
 description:      ''
 url:              "http://jliggett.github.io"
-baseurl:          "/plentynice"
+baseurl:          ''
 
 author:
   name:           "@jlliggett"
   url:            https://twitter.com/jlliggett
 
 plugins:
-  - jekyll-paginate
-paginate: 5
+paginate: 
 
 
 # Custom vars

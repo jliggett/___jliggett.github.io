@@ -17,6 +17,7 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
+      {% comment %}
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
@@ -25,6 +26,7 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+      {% endcomment %}
 
     </nav>
     <a t+

@@ -3,8 +3,11 @@
 
   <div class="header">
     <header>{{ page.title }}</header>
-    <h6 align="right">A folk and blues band located in Youngstown, OH 
+    <h6 align="right">
+        <div>
+        A folk and blues band located in Youngstown, OH 
         <br>e: <a href="mailto:plentynicemusic@gmail.com" target="_top">plentynicemusic@gmail.com</a>
+        </div>
     <h6>
   </div> 
 
@@ -12,8 +15,10 @@
   {% include head.html %}
 
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
-
-  <body class="page" style="background-image: url('{{ site.baseurl }}/img/mountain.jpg'); background-size: 1413.75px 1536px;">
+  
+  <body class="page" style="background-image: url('{{ site.baseurl }}/img/mountain.jpg');
+                            background-repeat: no-repeat; 
+                            background-size: cover;">
     <div class="content article">
       <dt></dt>
       {{ content }}
