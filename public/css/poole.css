@@ -266,19 +266,20 @@ img {
 /* Tables */
 table {
   margin-bottom: 1rem;
-  width: 100%;
-  border: 1px solid #e5e5e5;
+  width: 65%;
+  min-width: 30rem;
+  border: 0px;
   border-collapse: collapse;
 }
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 0px;
 }
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
-}
+/*tbody tr:nth-child(odd) td,
+*tbody tr:nth-child(odd) th {
+*  background-color: #f9f9f9;
+*}
 
 
 /*
@@ -327,7 +328,7 @@ tbody tr:nth-child(odd) th {
   -webkit-columns: 2 50px;
   -moz-columns: 2 50px;
   columns: 2 50px;
-  min-height: 100rem;
+  min-height: 50rem;
   min-width: 50rem;
 }
 
