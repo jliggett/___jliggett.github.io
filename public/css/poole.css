@@ -115,7 +115,6 @@ h6 {
   padding: 0px 40px;
   margin-top: 0rem;
   margin-bottom: 1rem;
-  width: 65%;
   min-width: 30rem;
 }
 
@@ -267,7 +266,7 @@ img {
 table {
   margin-bottom: 1rem;
   width: 65%;
-  min-width: 30rem;
+  min-width: 30rem; 
   border: 0px;
   border-collapse: collapse;
 }
