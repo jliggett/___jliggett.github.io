@@ -95,9 +95,10 @@ h1 {
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
   color: #000000;
-  font-family: TimesNewRoman;
+  font-family: cubefontregular, sans-serif;
 }
 h3 {
   margin-top: 1.5rem;
